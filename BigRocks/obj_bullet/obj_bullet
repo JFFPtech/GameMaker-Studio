@@ -1,0 +1,6 @@
+// created attributes for objects:bullets //
+speed = 10;
+direction = obj_player.image_angle;
+
+// makes sure bullets are destroyed when they leave the room
+instance_destroy();
