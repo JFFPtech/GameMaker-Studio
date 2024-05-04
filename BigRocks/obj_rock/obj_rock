@@ -1,0 +1,9 @@
+// sets the speed and direction of the rocks, creates func //
+speed = 1;
+direction = random(360);
+image_angle = random(360);
+
+// sets the direction and wrap around instance, step func //
+move_wrap(true, true, 100);
+
+image_angle += 1;
